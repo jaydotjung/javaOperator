@@ -4,8 +4,10 @@ package Controller;
  * @ Author : Me
  * @ Story : OperatorControlloer
  */
-import ifCondition.ArithmeticCalc;
-import ifCondition.CalcAvgAnswer;
+import condition.ArithmeticCalc;
+import condition.CalcAvgAnswer;
+import condition.ManOrWoman;
+import condition.SwitchAvg;
 
 //불러올때는 메인이 없는 코드를 이용해야함. 
 
@@ -17,7 +19,15 @@ public class OperatorController {
 		
 		//2015.07.09 사칙 연산 계산기
 		ArithmeticCalc calc = new ArithmeticCalc ();
-		calc.calc();
+		//	calc.calc();	
 		
+		//2015.07.10 스위치 성적 계산기
+		SwitchAvg avg2 = new SwitchAvg();
+		//avg2.calc(); 
+		
+		//2015.07.10
+		ManOrWoman manOrWoman = new ManOrWoman();
+		manOrWoman.ssn(); //ssn() 원 클래스의 메소드 이름이다. 
+			
 	}
 }

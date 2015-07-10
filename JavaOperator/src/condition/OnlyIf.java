@@ -1,4 +1,4 @@
-package ifCondition;
+package condition;
 
 public class OnlyIf {
 	public static void main(String[] args) {
