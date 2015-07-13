@@ -4,6 +4,7 @@ package Controller;
  * @ Author : Me
  * @ Story : OperatorControlloer
  */
+import loop.EvenOddSum;
 import condition.ArithmeticCalc;
 import condition.CalcAvgAnswer;
 import condition.ManOrWoman;
@@ -27,7 +28,11 @@ public class OperatorController {
 		
 		//2015.07.10
 		ManOrWoman manOrWoman = new ManOrWoman();
-		manOrWoman.ssn(); //ssn() 원 클래스의 메소드 이름이다. 
+		//manOrWoman.ssn(); //ssn() 원 클래스의 메소드 이름이다. 
+		
+		//2015.7.13
+		EvenOddSum evenOddSum = new EvenOddSum();
+		evenOddSum.calc(); // 객체가 메소드를 호출한다. 
 			
 	}
 }
