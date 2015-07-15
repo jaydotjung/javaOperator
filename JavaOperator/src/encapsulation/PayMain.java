@@ -30,6 +30,8 @@ public class PayMain {
 		PayBean payBean = new PayBean(); 
 		payBean.setName(name);
 		payBean.setSalary(salary);
+		
+		System.out.println(payBean.getName()+"님 반갑습니다.");
  
 		
 		//출력부

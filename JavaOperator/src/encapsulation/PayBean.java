@@ -6,12 +6,15 @@ public class PayBean {
 
 	//멤버필드
 	private String name; // 멤버필드 변수는 초기화 하지 않는다!!
-	private int salary, tax, revenue;
+	private int salary;
 	
 	//멤버메소드 영역이 시작
 	//스캐너로 받는 영역은 set, 받아야하는건 get
 	public void setName(String name) {
 		this.name = name;
+	}
+	public String getName() {
+		return name;
 	}
 	public void setSalary(int salary) {
 		this.salary = salary;
