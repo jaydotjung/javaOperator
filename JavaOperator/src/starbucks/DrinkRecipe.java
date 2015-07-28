@@ -14,8 +14,7 @@ public abstract class DrinkRecipe {
 		brew();
 		pourInCup();
 		select(option);
-		serve();
-		
+		serve();		
 	}
 	private void boilWater(){ // abstract과 같은 맥락인데 다른 문법이다.
 		System.out.println("물을 끓인다");
